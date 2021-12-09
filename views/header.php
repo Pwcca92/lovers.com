@@ -21,7 +21,7 @@
     <!-- Header 2 rows -->
     <header>
         <div class="container-full p-2 mx-auto bg-dark">
-            <h1 class="text-light text-center fs-1"> Amour, Gloire et Bébé </h1>
+            <h1 class="text-light text-center fs-1"><i class="bi bi-heart align-middle"></i> Amour, Gloire et Bébé <i class="bi bi-heart align-middle"></i></h1>
             <p class="text-muted text-center">
                 Laissez l'amour venir à vous grâce à la magie de Cupidon !
             </p>
@@ -29,24 +29,24 @@
     </header>
 
     <!-- Add a navbar -->
-            <nav class="navbar pt-0 navbar-expand-lg navbar-light bg-light sticky-top">
-                <a class="navbar-brand" href="index.php"><i class="bi bi-heart-fill"></i> Lovers.com</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <nav class="navbar px-5 pt-0 navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="index.php"><i class="bi bi-heart-fill"></i> Lovers.com</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <!-- if $user is not set this items collapse  -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="lovers.php">Nos Célibataires</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="user.php">Mes informations</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <!-- End of Navbar -->
+        <!-- if $user is not set this items collapse  -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="lovers.php">Nos Célibataires</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="user.php">Mes informations</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
 
     <!-- Begin of body -->

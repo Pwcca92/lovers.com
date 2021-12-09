@@ -1,3 +1,6 @@
+<?php include_once('header.php'); ?>
+
+<!-- Begin of footer -->
 <footer>
     <div class="modal fade" id="modalLegalContent" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="0" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-scrollable">
@@ -16,17 +19,17 @@
         </div>
     </div>
 
-    <!-- Vertically centered scrollable modal for the team -->
-    <div class="modal fade" id="modalTeam" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="0" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <!-- Vertically centered modal and cards for the team -->
+    <div class="modal fade" id="modalTeam" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">L'équipe</h5>
+                    <h5 class="modal-title w-100 text-center" id="staticBackdropLabel">Qui sommes nous ?</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="row">
-                        <div class="col-6">
+                    <div class="row my-3">
+                        <div class="col-6 m-auto">
                             <div class="card">
                                 <div class="card-header">
                                     Laurent
@@ -36,7 +39,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 m-auto">
                             <div class="card">
                                 <div class="card-header">
                                     Aida
@@ -48,9 +51,9 @@
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row my-3">
                         <div class="col-6">
-                            <div class="card">
+                            <div class="card m-auto">
                                 <div class="card-header">
                                     Gregory
                                 </div>
@@ -61,7 +64,7 @@
                         </div>
 
                         <div class="col-6">
-                            <div class="card">
+                            <div class="card m-auto">
                                 <div class="card-header">
                                     Julien
                                 </div>

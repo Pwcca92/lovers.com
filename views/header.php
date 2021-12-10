@@ -6,8 +6,8 @@
     $page = "home";
     $url = "";
     if ($page != $url) {
-        $urlLovers = '../views/lovers.php';
-        $urlUser = '../views/users.php';
+        $urlLovers = '/views/lovers.php';
+        $urlUser = '/views/users.php';
         $urlIndex = "/index.php";
     }
 

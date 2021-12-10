@@ -1,12 +1,14 @@
 <!-- include header + navbar -->
-<?php include_once('views/header.php'); ?>
+<?php include_once('views/header.php');
+session_start();
+ ?>
 <div class="container">
     <!-- Titre -->
     <div class="row">
         <h2 class="titre">Inscription</h2>
     </div>
     <!-- Fomulaire -->
-    <form action="controllers/index-controller.php" method="post" enctype="multipart/form-data">
+    <form action="controllers/index-controller.php" method="POST" enctype="multipart/form-data">
         <div class="row p-4">
 
             <div class="col-lg-6 col-sm-12 py-2">

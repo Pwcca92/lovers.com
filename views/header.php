@@ -2,6 +2,17 @@
 
 <!--  End of php controller -->
 
+<?php 
+    $page = "home";
+    $url = "";
+    if ($page != $url) {
+        $urlLovers = '../views/lovers.php';
+        $urlUser = '../views/users.php';
+        $urlIndex = "/index.php";
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -30,7 +41,7 @@
 
     <!-- Add a navbar -->
     <nav class="navbar px-5 pt-0 navbar-expand-lg navbar-light bg-light sticky-top">
-        <a class="navbar-brand" href="index.php"><i class="bi bi-heart-fill"></i> Lovers.com</a>
+        <a class="navbar-brand" href="<?= $urlIndex ?>"><i class="bi bi-heart-fill"></i> Lovers.com</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,10 +50,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="lovers.php">Nos Célibataires</a>
+                    <a class="nav-link" href="<?= $urlLovers ?>">Nos Célibataires</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="user.php">Mes informations</a>
+                    <a class="nav-link" href="<?= $urlUser ?>">Mes informations</a>
                 </li>
             </ul>
         </div>

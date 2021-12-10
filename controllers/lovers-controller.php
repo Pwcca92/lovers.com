@@ -149,4 +149,39 @@ $hommes = [
     ],
 ];
 
+
+foreach($femmes as $femme) : 
+if (array_key_exists('is_enabled', $femme) && $femme['is_enabled'] == true): ?>
+        <div class="col pt-3">
+            <div class="card border border-5 border-light" style="width: 18rem;">
+                <img src="../assets/img/femmes/<?= $femme['picture'] ?>" class="card-img-top" alt="profile picture">
+                <div class="card-body">
+                    <p class="card-text"><span class="text-uppercase fw-bold"><?= $femme['lastname']; ?></span> <?= $femme['firstname']; ?>, <span class="small text-end"><?= $femme['age']; ?> ans</span></p>
+                    <p class="card-text"><?= $femme['description']; ?></p>
+                    <p class="card-text small">Département : <?= $femme['zipcode']; ?></p>
+                    <a href="#" class="btn btn-white border border-danger rounded-circle" ><i class="bi bi-heart text-danger"></i></a>
+                </div>
+            </div>
+        </div>
+   <?php endif;
+endforeach
+?>
+
+<?php 
+
+foreach($hommes as $homme) : 
+ if (array_key_exists('is_enabled', $homme) && $homme['is_enabled'] == true): ?>
+        <div class="col pt-3">
+            <div class="card border border-5 border-light" style="width: 18rem;">
+                <img src="../assets/img/hommes/<?= $homme['picture'] ?>" class="card-img-top" alt="profile picture">
+                <div class="card-body">
+                    <p class="card-text"><span class="text-uppercase fw-bold"><?= $homme['lastname']; ?></span> <?= $homme['firstname']; ?>, <span class="small text-end"><?= $homme['age']; ?> ans</span></p>
+                    <p class="card-text"><?= $homme['description']; ?></p>
+                    <p class="card-text small">Département : <?= $homme['zipcode']; ?></p>
+                    <a href="#" class="btn btn-white border border-danger rounded-circle" ><i class="bi bi-heart text-danger"></i></a>
+                </div>
+            </div>
+        </div>
+   <?php endif;
+endforeach
 ?>

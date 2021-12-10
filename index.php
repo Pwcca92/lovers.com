@@ -1,5 +1,7 @@
 <!-- include header + navbar -->
-<?php include_once('views/header.php'); ?>
+<?php include_once('views/header.php');
+session_start();
+ ?>
 <div class="container">
     <!-- Titre -->
     <div class="row">

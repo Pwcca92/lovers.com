@@ -30,7 +30,7 @@
 
     <!-- Add a navbar -->
     <nav class="navbar px-5 pt-0 navbar-expand-lg navbar-light bg-light sticky-top">
-        <a class="navbar-brand" href="index.php"><i class="bi bi-heart-fill"></i> Lovers.com</a>
+        <a class="navbar-brand" href="../index.php"><i class="bi bi-heart-fill align-middle"></i> Lovers.com</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

@@ -2,7 +2,7 @@
 <?php include_once('views/header.php'); ?>
 <div class="container">
     <!-- Titre -->
-    <div class="row"> 
+    <div class="row">
         <h2 class="titre">Inscription</h2>
     </div>
     <!-- Fomulaire -->
@@ -11,13 +11,13 @@
 
             <div class="col-lg-6 col-sm-12 py-2">
                 <div class="form-floating">
-                    <input type="text" name="nom" class="form-control" id="inputname" placeholder="" value="">
+                    <input type="text" name="lastname" class="form-control" id="inputname" placeholder="" value="">
                     <label for="floatingInputGrid">Nom</label>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-12 py-2">
                 <div class="form-floating">
-                    <input type="text" name="prenom" class="form-control" id="inputfname" value="">
+                    <input type="text" name="firstname" class="form-control" id="inputfname" value="">
                     <label for="floatingSelectGrid">Prénom</label>
                 </div>
             </div>
@@ -25,16 +25,19 @@
         <div class="row p-4">
             <div class="col-lg-6 col-sm-12 py-2">
                 <div class="form-floating">
-                    <input type="text" name="age" class="form-control" id="inputage" value="">
-                    <label for="floatingSelectGrid">Age</label>
+                    <select class="form-select" type="text" name="gender1" aria-label="Default select example" value="">
+                        <option selected>Vous êtes</option>
+                        <option value="1">Homme</option>
+                        <option value="2">Femme</option>
+                    </select>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-12 py-2">
                 <div class="form-floating">
-                    <select class="form-select" type="text" name="genre" aria-label="Default select example" value="">
-                        <option selected>Genre</option>
+                    <select class="form-select" type="text" name="gender2" aria-label="Default select example" value="">
+                        <option selected>Vous recherchez</option>
                         <option value="1">Homme</option>
-                        <option value="2">Famme</option>
+                        <option value="2">Femme</option>
                     </select>
                 </div>
             </div>
@@ -42,13 +45,13 @@
         <div class="row p-4">
             <div class="col-lg-6 col-sm-12 py-2">
                 <div class="form-floating">
-                    <input type="date" name="date" class="form-control" id="inputdate" value="">
+                    <input type="date" name="age" class="form-control" id="inputdate" value="">
                     <label for="floatingSelectGrid">Date de naissance</label>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-12 py-2">
                 <div class="form-floating">
-                    <input type="text" name="code" class="form-control" id="inputpostal" placeholder="" value="">
+                    <input type="text" name="zipcode" class="form-control" id="inputpostal" placeholder="" value="">
                     <label for="floatingInputGrid">Code postal</label>
                 </div>
             </div>
@@ -65,7 +68,7 @@
                 <div class="form-floating">
                     <div>
                         <label for="formFile" class="form-label">Choisir une photo de profil</label>
-                        <input class="form-control" type="file" name="photo" id="formFile">
+                        <input class="form-control" type="file" name="picture" id="formFile">
                     </div>
                 </div>
             </div>

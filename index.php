@@ -13,15 +13,15 @@ session_start();
 
             <div class="col-lg-6 col-sm-12 py-2">
                 <div class="form-floating">
-                    <label for="inputname">Nom</label>
                     <input type="text" name="lastname" class="form-control" id="inputname" placeholder="" value="">
+                    <label for="inputname">Nom</label>
                    
                 </div>
             </div>
             <div class="col-lg-6 col-sm-12 py-2">
                 <div class="form-floating">
-                    <label for="inputfname">Prénom</label>
                     <input type="text" name="firstname" class="form-control" id="inputfname" value="">
+                    <label for="inputfname">Prénom</label>
                    
                 </div>
             </div>
@@ -49,24 +49,23 @@ session_start();
         <div class="row p-4">
             <div class="col-lg-6 col-sm-12 py-2">
                 <div class="form-floating">
-                    <label for="inputdate"></label>
                     <input type="date" name="age" class="form-control" id="inputdate" value="">
-                    
+                    <label for="inputdate"></label>  
                 </div>
             </div>
             <div class="col-lg-6 col-sm-12 py-2">
                 <div class="form-floating">
-                    <label for="inputpostal">Code postal</label>
                     <input type="text" name="zipcode" class="form-control" id="inputpostal" placeholder="" value="">
-                   
+                    <label for="inputpostal">Code postal</label>    
                 </div>
             </div>
         </div>
         <div class="row p-4">
             <div class="col-lg-6 col-sm-12 py-2">
-            <div class="form-floating">
-                    <label for="email">mail@mail.com</label>                   
+                 
+                <div class="form-floating">                  
                     <input type="email" name="mail" class="form-control" id="email" aria-describedby="emailHelp">
+                    <label for="email" class="form-label">mail@mail.com</label>
                     <div id="emailHelp" class="form-text">Nous ne partagerons votre e-mail.</div>
                 </div>
             </div>

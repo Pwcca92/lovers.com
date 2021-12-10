@@ -1,3 +1,7 @@
+<!-- Add include of the php controller -->
+
+<!--  End of php controller -->
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -14,20 +18,24 @@
 </head>
 
 <body>
-    <!-- Barre de navigation -->
-
+    <!-- Header 2 rows -->
     <header>
-        <div class="row bg-dark">
-            <h1 class="text-light text-center fs-1">Rencontrez l'Amour</h1>
+        <div class="container-full p-2 mx-auto bg-dark">
+            <h1 class="text-light text-center fs-1"><i class="bi bi-heart align-middle"></i> Amour, Gloire et Bébé <i class="bi bi-heart align-middle"></i></h1>
+            <p class="text-muted text-center">
+                Laissez l'amour venir à vous grâce à la magie de Cupidon !
+            </p>
         </div>
     </header>
 
-    <!-- ajout d'une navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <!-- Add a navbar -->
+    <nav class="navbar px-5 pt-0 navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="index.php"><i class="bi bi-heart-fill"></i> Lovers.com</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"><3</span>
+            <span class="navbar-toggler-icon"></span>
         </button>
 
+        <!-- if $user is not set this items collapse  -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -39,3 +47,6 @@
             </ul>
         </div>
     </nav>
+    <!-- End of Navbar -->
+
+    <!-- Begin of body -->

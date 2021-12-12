@@ -9,7 +9,7 @@
         $urlLovers = '/views/lovers.php';
         $urlUser = '/views/users.php';
         $urlIndex = "/index.php";
-    }
+    };
 
 ?>
 

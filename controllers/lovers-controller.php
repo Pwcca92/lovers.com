@@ -10,7 +10,7 @@ $femmes = [
     'mail' => 'zurieCharbonneau@dayrep.com',
     'zipcode' => '94200',
     'picture' => '1.jpg',
-    'description' => 'Nullam vitae ex porta, molestie ligula dictum, elementum massa. Nulla vitae quam est. Mauris bibendum odio et ex hendrerit varius. Integer sit amet facilisis justo.',
+    'description' => 'Nullam vitae ex porta, molestie ligula dictum, elementum massa. Nulla vitae quam est. Mauris bibendum odio et ex hendrerit varius.',
     ],
     [
     'lastname' => 'Chaloux',
@@ -20,7 +20,7 @@ $femmes = [
     'mail' => 'pansychalouxe@mail.com',
     'zipcode' => '83300',
     'picture' => '96.jpg',
-    'description' => 'Etiam accumsan ornare nibh, at sollicitudin velit feugiat non. In gravida fermentum dui, vel tristique magna aliquam eget. Duis vitae ex felis. Nunc porttitor quam ac elit blandit, ut iaculis tellus venenatis.',
+    'description' => 'Etiam accumsan ornare nibh, at sollicitudin velit feugiat non. In gravida fermentum dui. Nunc porttitor quam ac elit blandit, ut iaculis tellus venenatis.',
     ],
     [
     'lastname' => 'Petrie',
@@ -30,7 +30,7 @@ $femmes = [
     'mail' => 'petriealita@yahoo.fr',
     'zipcode' => '13015',
     'picture' => '7.jpg',
-    'description' => 'Nullam fringilla, nibh non pulvinar accumsan, felis ante maximus ligula, viverra feugiat lorem lacus venenatis augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.',
+    'description' => 'Nullam fringilla, nibh non pulvinar accumsan, felis ante maximus ligula, viverra feugiat lorem lacus venenatis augue. Senectus et netus et malesuada fames.',
     ],
     [
     'lastname' => 'Morin',
@@ -50,22 +50,22 @@ $femmes = [
     'mail' => 'john.doe@exemple.com',
     'zipcode' => '76000',
     'picture' => '21.jpg',
-    'description' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut voluptas sequi nesciunt vitae nemo illo reiciendis porro ex maxime eius saepe laborum, perspiciatis ipsa possimus odit quasi totam, quam eligendi.',
+    'description' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut voluptas sequi nesciunt vitae nemo quam eligendi.',
     ],
     [
     'lastname' => 'Goudal',
     'firstname' => 'Manon',
-    'age' => '33',
+    'age' => '30',
     'gender' => 'femme',
     'mail' => 'john.doe@exemple.com',
     'zipcode' => '76000',
     'picture' => '27.jpg',
-    'description' => 'Felis ante maximus ligula, viverra feugiat lorem lacus venenatis augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+    'description' => 'Felis ante maximus ligula, viverra feugiat lorem lacus venenatis augue. Pellentesque habitant morbi tristique senectus.',
     ],
     [
     'lastname' => 'Orval',
     'firstname' => 'Emilie',
-    'age' => '33',
+    'age' => '35',
     'gender' => 'femme',
     'mail' => 'john.doe@exemple.com',
     'zipcode' => '76000',
@@ -80,7 +80,7 @@ $femmes = [
     'mail' => 'john.doe@exemple.com',
     'zipcode' => '76000',
     'picture' => '100.jpg',
-    'description' => 'Non pulvinar accumsan, felis ante maximus ligula, viverra feugiat lorem lacus venenatis augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec ac lacus eu ante scelerisque ornare.',
+    'description' => 'Non pulvinar accumsan, felis ante maximus ligula, viverra feugiat lorem lacus venenatis augue. Lacus eu ante scelerisque ornare.',
     ],
 ];
 
@@ -103,7 +103,7 @@ $hommes = [
     'mail' => 'john.doe@exemple.com',
     'zipcode' => '76000',
     'picture' => '29.jpg',
-    'description' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut voluptas sequi nesciunt vitae nemo illo reiciendis porro ex maxime eius saepe laborum, perspiciatis ipsa possimus odit quasi totam, quam eligendi.',
+    'description' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut voluptas sequi nesciunt vitae nemo illo reiciendis quam eligendi.',
     ],
     [
     'lastname' => 'DOE',
@@ -113,7 +113,7 @@ $hommes = [
     'mail' => 'john.doe@exemple.com',
     'zipcode' => '76000',
     'picture' => '34.jpg',
-    'description' => 'Aut voluptas sequi nesciunt vitae nemo illo reiciendis porro ex maxime eius saepe laborum, perspiciatis ipsa possimus odit quasi totam, quam eligendi.',
+    'description' => 'Aut voluptas sequi nesciunt vitae nemo illo reiciendis porro ex maxime eius saepe laborum, perspiciatis ipsa possimus quam eligendi.',
     ],
     [
     'lastname' => 'DOE',
@@ -123,7 +123,7 @@ $hommes = [
     'mail' => 'john.doe@exemple.com',
     'zipcode' => '76000',
     'picture' => '45.jpg',
-    'description' => 'Nullam fringilla, nibh non pulvinar accumsan, felis ante maximus ligula, viverra feugiat lorem lacus venenatis augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.',
+    'description' => 'Nullam fringilla, nibh non pulvinar accumsan, felis ante maximus ligula, viverra feugiat lorem lacus venenatis augue.',
     ],
     [
     'lastname' => 'DOE',
